@@ -8,6 +8,7 @@ const Gallery=()=>{
             <td><Link href={"/gallery"}>Gallery</Link></td>
             <td><Link href={"/contact"}>Contact</Link></td>
             <td><Link href={"/calgpa"}>GPA Calc</Link></td>
+            <td><Link href={"/post"}>Post</Link></td>
         </tr>
     </table>
     <h1 style={{textAlign:" center",backgroundColor:"cadetblue",padding: "2%"}}>Gallery</h1>  
