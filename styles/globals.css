@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@tailwind base ;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -14,3 +18,30 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.imgflame{
+  width:300px;
+}
+
+ #portfolio body {
+  background-color: #a3eea9;
+  font-family: "Trirong", serif;
+  color: #473024;
+  }
+  #portfolio #t01 table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+  #portfolio #t01 table {
+    border-spacing: 15px;
+  }
+  #portfolio nav {
+   float: left;
+   width: 30%;
+   padding: 20px;
+  }
+  #portfolio img{
+      width: 350px;
+      height: 350px;
+  }
